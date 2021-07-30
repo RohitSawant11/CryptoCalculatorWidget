@@ -1,0 +1,84 @@
+.widget-everything {
+  background: #EFF4F4 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 3.6rem;
+}
+
+
+/* top  */
+
+.widget-everything .topWidgetPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widget-everything .topWidgetPart .cryptoCalcHeading {
+  color: #1C2951;
+  font-size: 28px;
+  line-height: 0.01;
+}
+
+.widget-everything .topWidgetPart .inrTocryptoHeading {
+  display: flex;
+  font-size: 28px;
+  color: #43BF98;
+  font-weight: bolder;
+}
+
+.widget-everything .topWidgetPart .inrTocryptoHeading span {
+  margin: 0 41px;
+}
+
+/* center  */
+.widget-everything .centerWidgetPart .inputBox .inrInputBox{
+  width: 543px;
+  height: 69px;
+  border-radius: 5px;
+  border: .1rem solid #1C2951;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.widget-everything .centerWidgetPart .inputBox p {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.widget-everything .centerWidgetPart .inputBox .inrInputBox input {
+  border: none;
+  font-size: 32px;
+  width: 81%;
+  margin-left: .5rem;
+}
+
+.widget-everything .centerWidgetPart .inputBox .inrInputBox span {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1C2951;
+}
+
+
+
+
+
+/* bottom  */
+
+.widget-everything .bottomWidgetPart {
+  text-align: center;
+}
+.widget-everything .bottomWidgetPart .bottomText {
+  display: flex;
+  flex-direction: column;
+  color: #1C2951;
+  font-size: 14.3px;
+}
